@@ -26,73 +26,83 @@
     > What ‘underwater labour’ contributed to your final data visualization product?
 
 
-Original Data:
-Software Used
+Data Links: https://www.tps.ca/data-maps/data-analytics/fatal-collisions/
 
-The original dashboard was created using a dashboard-based data visualization tool that supports multiple charts and interactive design features (Microscoft Business Intelligence Tool).
+Visualization 1: 
 
-Intended Audience
+What software did you use to create your data visualization?
 
-The intended audience includes transportation planners, policymakers, researchers, and members of the public interested in road safety.
+I used Python with the Matplotlib library. Python allows data to be analyzed and visualized through code, while Matplotlib provides tools for creating customizable and reproducible charts.
 
-Message
+Who is your intended audience?
 
-The dashboard summarizes traffic fatalities from 2022–2026 by showing overall yearly trends, involvement type, and age-group distributions. The goal is to identify populations most affected by fatal collisions.
+The intended audience includes the general public, transportation safety organizations, policymakers, and researchers interested in traffic safety trends and road-user fatalities.
 
-Design Considerations
+What information or message are you trying to convey with your visualization?
 
-Four chart types were used to communicate different aspects of the data. Bar charts compare yearly totals and age groups, the line chart highlights trends over time, and the donut chart shows proportions of fatalities by involvement category. Consistent colours, titles, and labels improve readability.
+The visualizations show traffic fatality trends from 2022–2026. The bar chart highlights changes in total fatalities by year, while the line chart shows how fatalities are distributed among different road-user groups, helping identify which groups contribute most to overall fatalities.
 
-Reproducibility
+What aspects of design did you consider when making your visualization? How did you apply them?
 
-The dashboard can be recreated using the same dataset and settings. However, some formatting choices may require manual adjustments, making reproducibility more difficult than code-based approaches.
+I focused on simplicity, clarity, and readability. Clear titles and axis labels explain the data being shown. Data labels on the bar chart allow exact values to be read easily, while markers and a legend on the line chart help distinguish between involvement categories. The side-by-side layout allows viewers to compare overall and category-specific trends efficiently.
 
-Accessibility
+How did you ensure that your data visualizations are reproducible?
 
-Accessibility was improved through clear titles, axis labels, legends, and direct numerical labels on the bar charts. Information is communicated through position and size rather than colour alone.
+The visualizations were created entirely through Python code, making them reproducible. Anyone with the same dataset and script can recreate identical charts. Using code-based visualization improves transparency and reduces the possibility of human error compared with manually created graphics.
 
-Impacted Communities
+How did you ensure that your data visualization is accessible?
 
-The findings may be relevant to pedestrians, cyclists, drivers, transportation agencies, and local governments involved in road safety planning.
+Accessibility was supported through readable font sizes, descriptive labels, a clear legend, and a simple layout. Data values were displayed directly on the bar chart to reduce reliance on estimating values from the axis. The design avoids unnecessary visual clutter that could distract from the information.
 
-Feature Selection
+Who are the individuals and communities who might be impacted by your visualization?
 
-Year, involvement type, and age group were selected because they clearly summarize fatality trends. More detailed variables were excluded to maintain simplicity.
+Drivers, cyclists, motorcyclists, pedestrians, community organizations, transportation planners, and government agencies may all be impacted. The visualization can support awareness of traffic safety issues and help guide policy or prevention strategies.
 
-Underwater Labour
+How did you choose which features of your chosen dataset to include or exclude from your visualization?
 
-The project required data collection, cleaning, category grouping, calculation of summary statistics, and refinement of the dashboard layout.
+I selected total fatalities and road-user involvement because they directly address trends and patterns in fatal incidents. Age-group data were excluded to keep the dashboard concise and avoid overwhelming viewers with too much information.
 
-Visualization 2: Matplotlib Dashboard Recreation
+What ‘underwater labour’ contributed to your final data visualization product?
 
-Software Used
+The final visualization required data collection, organization, verification, coding, debugging, chart selection, and layout refinement. Additional effort was spent ensuring the plots accurately represented the data and communicated the intended message clearly.
 
-This dashboard was created using Python and the matplotlib library.
+Visualization 2:
 
+What software did you use to create your data visualization?
 
-Design Considerations
+I used Microsoft Excel to create the visualization. Excel provides built-in tools for generating charts and customizing labels, colors, and layouts without requiring programming knowledge.
 
-The original 2×2 dashboard layout was preserved to facilitate comparison. Similar chart types were used because they effectively display trends, proportions, and comparisons. Titles, labels, legends, and value annotations were included to improve interpretation.
+Who is your intended audience?
 
-Reproducibility
+The intended audience includes community members, transportation safety organizations, policymakers, and researchers interested in understanding traffic fatality patterns. The visualization is designed for viewers who may not have a technical background in data analysis.
 
-Matplotlib provides strong reproducibility because all steps are documented in code. Anyone with the script can generate the same visualization, making the results easier to verify and modify.
+What information or message are you trying to convey with your visualization?
 
-Accessibility
+The visualization highlights the distribution of traffic fatalities by involvement type and age group. The donut chart shows that pedestrians account for the majority of fatalities, while the bar chart identifies the age groups most affected. Together, the charts provide insight into which populations may be at greater risk and could benefit from targeted safety measures.
 
-The dashboard uses readable labels, consistent formatting, and direct value annotations. Multiple visual cues, such as position and bar length, reduce reliance on colour alone.
+What aspects of design did you consider when making your visualization? How did you apply them?
 
-Impacted Communities
+I focused on readability and visual comparison. Distinct colors were used to separate involvement categories in the donut chart, while percentages and counts were displayed to provide exact values. The bar chart uses a simple design with consistent scales and labels, making it easy to compare age groups. Clear titles and a side-by-side layout help viewers quickly understand the key findings.
 
-The visualization may support discussions among transportation agencies, researchers, community groups, and residents concerned with road safety.
+How did you ensure that your data visualizations are reproducible?
 
-Feature Selection
+The visualization can be reproduced by storing the source data and chart settings within the Excel file. However, Excel is generally less reproducible than code-based tools because formatting changes can be made manually and may be difficult to track. This can make it harder for others to recreate the exact visualization.
 
-Only variables directly related to fatality trends were included. Less relevant details were omitted to keep the dashboard focused and easy to understand.
+How did you ensure that your data visualization is accessible?
 
-Underwater Labour
+Accessibility was improved through large labels, clear titles, and direct display of counts and percentages. The charts avoid unnecessary decorative elements and present information in a straightforward format. The combination of visual elements and numerical labels helps viewers interpret the data more easily.
 
-The recreation process involved coding, testing, selecting chart types, arranging subplots, and ensuring the final dashboard accurately reflected the original visualization.
+Who are the individuals and communities who might be impacted by your visualization?
+
+Road users, including pedestrians, drivers, cyclists, and motorcyclists, may be affected by the findings. Community organizations, public health agencies, and transportation planners could use the information to identify vulnerable groups and develop safety initiatives or policy interventions.
+
+How did you choose which features of your chosen dataset to include or exclude from your visualization?
+
+I selected involvement type and age group because they provide meaningful insights into who is most affected by fatal incidents. Other variables, such as yearly trends or geographic information, were excluded to keep the visualization focused and easy to interpret.
+
+What ‘underwater labour’ contributed to your final data visualization product?
+
+The final product required collecting and verifying data, organizing categories, calculating percentages, choosing appropriate chart types, formatting labels, and refining the layout. Time was also spent evaluating which variables would best communicate the most important patterns without overwhelming the audience.
 
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
